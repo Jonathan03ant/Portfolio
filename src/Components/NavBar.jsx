@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import { Link } from 'react-router-dom';
 import { SiLinkedin } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
 
