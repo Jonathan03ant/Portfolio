@@ -8,7 +8,8 @@ export default {
     extend: {
         fontFamily: {
             'rock-salt': ['Rock Salt', 'cursive'],
-        }
+            'coding': ['Nanum Gothic Coding', 'monospace'],
+        },
     },
   },
   plugins: [

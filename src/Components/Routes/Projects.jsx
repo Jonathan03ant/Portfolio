@@ -1,5 +1,4 @@
 import React from 'react';
-import mem from '../../../public/img/mem.png'
 
 export default function Projects() {
     return (
