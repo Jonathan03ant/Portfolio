@@ -1,22 +1,40 @@
 import React from 'react';
+import {Typewriter} from 'react-simple-typewriter';
 
 export default function Home() {
+    const words = [
+        'Third Year student at Carleton\n',
+        'Looking for my first COOP\n',
+        'I Love coding in C and C++\n',
+        'And I am learning React\n',
+        'I am a team player\n',
+        'continuous learner\n',
+        'a hard worker\n',
+        'and a Problem Solver\n',
+    ];
+
     return (
-        <div className="projects flex flex-col items-center justify-start ml-57 mt-20 mr-20">
-            <div className='prose prose-lg sm:prose-xl'>
-                <h1>Home</h1>
-                <p> 
-                    Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first 
-                    into the rabbit hole of coding and web development. Fast-forward to today, and I've had the privilege 
-                    of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation.
-
-                    My main focus these days is building products and leading projects for our clients at Upstatement. 
-                    In my free time I've also released an online video course that covers everything you need to know to build a 
-                    web app with the Spotify API.
-
-                    When I'm not at the computer, I'm usually rock climbing, hanging out with my wife and two cats, or running around Hyrule 
-                    searching for Korok seeds
-                </p>
+        <div className="projects flex flex-col items-center justify-start ml-57 mt-40 mr-20">
+            <div className=' mr-7 ms-2'>
+                <h1 className='font-zillo text-white text-3xl'>
+                    Hello My name is Jonathan 
+                </h1>
+                
+                <h1 className='font-zillo text-white text-2xl'>
+                    <br/>
+                    <span> 
+                    <Typewriter
+                        words={words}
+                        loop={0}
+                        cursor
+                        cursorStyle='_'
+                        typeSpeed={100}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                    />
+                    </span>
+                   
+                </h1>
             </div>
         </div>
     )

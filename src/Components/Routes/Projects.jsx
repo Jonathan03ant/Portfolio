@@ -1,8 +1,9 @@
 import React from 'react';
+import { IoArrowRedoOutline } from "react-icons/io5";
 
 export default function Projects() {
     return (
-        <div className="projects flex flex-col items-center justify-start ml-57 mt-40 mr-20">
+        <div className="projects flex flex-col items-center justify-start ml-57 mt-40 mr-20 space-y-5">
             <div className='font-coding mr-7 ms-2'>
                 <h3 className=" text-white font-coding font-bold text-2xl hover:text-slate-400 hover:underline my-3">
                     <a href='https://github.com/Jonathan03ant/memAlocator' target="_blank" rel="noopener noreferrer"> 

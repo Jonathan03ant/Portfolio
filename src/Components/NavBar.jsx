@@ -9,7 +9,7 @@ import { PiGithubLogoThin } from "react-icons/pi";
 
 export default function NavBar() {
     return (
-        <div className='nav flex justify-between mt-10' >
+        <div className='nav flex justify-between w-full mt-10' >
             <div className="navbar px-7 text-lg text-white">
                 <PiGithubLogoThin /> {/* This icon will be on the left */}
             </div>
