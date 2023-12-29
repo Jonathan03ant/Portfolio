@@ -13,18 +13,19 @@ function App() {
     return (
         <Router>
             <NavBar/>
-            <div className="flex">
+            <div className="flex h-screen overflow-hidden">
                 <SideBar/>
                 
-                <Routes>
-                    <Route path='/' element={<Home/>} />
-                    <Route path='/projects' element={<Projects />} />
-                    <Route path='/testimonies' element={<Testimonies />} />
-                    <Route path='/about' element={<About />} />
-                </Routes>
+                <div className="flex-grow overflow-y-auto">
+                    <Routes>
+                        <Route path='/' element={<Home/>} />
+                        <Route path='/projects' element={<Projects />} />
+                        <Route path='/testimonies' element={<Testimonies />} />
+                        <Route path='/about' element={<About />} />
+                    </Routes>
+                </div>
             </div>
         </Router>
-  
     )
 }
 export default App;

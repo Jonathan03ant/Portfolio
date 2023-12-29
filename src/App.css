@@ -17,8 +17,11 @@ body {
 .projects, .home {
     overflow-y: auto;
     margin-left: 500px;
-    height:100vh;
+    height:80vh;
     max-height: 1000px;
+    width: 600px; 
+    margin: auto;
+    padding: 20px;
 }
 
 .projects::-webkit-scrollbar {
@@ -32,3 +35,5 @@ body {
 .projects::-webkit-scrollbar-thumb:hover {
     background: #555;  
 }
+
+
