@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
     return (
-        <div className='text-white flex items-center justify-end ml-64'>
+        <div className="projects flex flex-col items-center justify-start ml-57 mt-20 mr-20">
             <div className='prose prose-lg sm:prose-xl'>
                 <h1>Home</h1>
                 <p> 
