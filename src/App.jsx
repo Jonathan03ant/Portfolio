@@ -13,10 +13,10 @@ function App() {
     return (
         <Router>
             <NavBar/>
-            <div className="flex h-screen overflow-hidden">
+            <div className="flex flex-col sm:flex-row h-full overflow-hidden">
                 <SideBar/>
                 
-                <div className="flex-grow overflow-y-auto">
+                <div className="flex-grow overflow-y-auto w-full">
                     <Routes>
                         <Route path='/' element={<Home/>} />
                         <Route path='/projects' element={<Projects />} />

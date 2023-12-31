@@ -1,6 +1,7 @@
 body {
     background-color: rgb(7, 11, 28);
   }
+
   
 
 .custom-hover:hover::before {
@@ -10,7 +11,7 @@ body {
 }
 
 .sidebar, .nav{
-    position: fixed;
+
     width: 200px;
 }
 
@@ -35,5 +36,4 @@ body {
 .projects::-webkit-scrollbar-thumb:hover {
     background: #555;  
 }
-
 
