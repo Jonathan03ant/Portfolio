@@ -6,6 +6,16 @@ export default {
       ],
   theme: {
     extend: {
+        animation: {
+            blink: 'blink 5s infinite',
+          },
+          keyframes: {
+            blink: {
+              '0%': { opacity: '1' },
+              '50%': { opacity: '0' },
+              '100%': { opacity: '1' },
+            },
+          },
         fontFamily: {
             'rock-salt': ['Rock Salt', 'cursive'],
             'coding': ['Nanum Gothic Coding', 'monospace'],
