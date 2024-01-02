@@ -106,9 +106,7 @@ export default function Projects() {
                         Jake's Resume Maker <IoArrowRedoOutline className="inline-block text-sm text-blue-700"/> <img src={live} alt="Live" className=" animate-blink inline-block w-12 h-15"/>
                     </a> 
                     <div className='space-x-1'>
-                        <img src={pug} alt="React" className="inline-block w-8 h-6"/> 
-                        <img src={node} alt="React" className="inline-block w-10 h-10"/>
-                        <img src={mongo} alt="React" className="inline-block w-10 h-10"/>
+                        <img src={react} alt="React" className="inline-block w-6 h-6"/> 
                         <img src={js} alt="React" className="inline-block w-6 h-6"/> 
                     </div> 
                 </h3>
@@ -141,7 +139,7 @@ export default function Projects() {
 
             <div className='font-coding mr-1 ms-2 p-4 pl-6 hover:bg-gray-400 hover:bg-opacity-5 max-w-full'>
                 <h3 className=" text-white font-coding font-bold text-2xl hover:text-slate-400 hover:underline my-3">
-                    <a href='https://github.com/Jonathan03ant/memAlocator' target="_blank" rel="noopener noreferrer"> 
+                    <a href='https://github.com/Jonathan03ant/Podify' target="_blank" rel="noopener noreferrer"> 
                         Podify <img src={cpp} alt="C++" className="inline-block w-6 h-6"/>
                     </a> 
                 </h3>
