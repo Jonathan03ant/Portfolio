@@ -30,10 +30,10 @@ body {
 }
 
 .projects::-webkit-scrollbar-thumb {
-    background: #504d4d;  
+    background: #1f1e1e;  
 }
 
 .projects::-webkit-scrollbar-thumb:hover {
-    background: #555;  
+    background: #373636;  
 }
 

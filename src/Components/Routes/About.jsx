@@ -29,7 +29,7 @@ export default function About() {
             </p>
 
             <p>
-                During my time at Carleton University, majoring in Computer Science, I utilized programming tools to solve problems and simplify my life. For instance, I automated my resume generation, saving time and effort. 
+                During my first and second year Carleton University, majoring in Computer Science, I utilized programming tools to solve problems and simplify my life. For instance, I automated my resume generation, saving time and effort. 
                 I also developed a job tracking application to stay organized during my job search. This application, called "Jetzt," is streamlining the process of my job search, and provided me valuable insights into SaaS.
 
             </p>

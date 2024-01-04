@@ -14,7 +14,7 @@ export default function Home() {
     ];
 
     return (
-        <div className="projects flex flex-col items-center justify-start ml-57 mt-40 mr-20">
+        <div className="projects flex flex-col items-center justify-start mt-10 mb-20 space-y-5 max-w-full">
             <div className=' mr-7 ms-2'>
                 <h1 className='font-zillo text-white text-3xl'>
                     Hello My name is Jonathan 
