@@ -11,7 +11,10 @@ import mongo from '../../../public/img/mongo.png';
 import node from '../../../public/img/node.png';
 import live from '../../../public/img/live.png';
 
+import { useRef } from 'react';
+
 export default function Projects() {
+    const animationRef = useRef(null);
     return (
         <div className="projects flex flex-col items-center justify-start mt-10 mb-20 space-y-5 max-w-full">
             <div className='font-coding mr-1 ms-2 p-4 pl-6 hover:bg-gray-400 hover:bg-opacity-5 max-w-full'>
