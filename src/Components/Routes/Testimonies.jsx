@@ -3,8 +3,8 @@ import React from 'react';
 
 export default function Testimonies() {
     return (
-        <div className="container my-80 mx-auto md:px-6">
-            <section className="mb-32 text-center">
+        <div className="container my-40 mx-auto md:px-6">
+            <section className="mb-24 text-center mx-20 ">
                 <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
 
                     <div className="mb-12 md:mb-0">
@@ -51,7 +51,7 @@ export default function Testimonies() {
 
                 </div>
             </section>
-            <section className="mb-32 text-center">
+            <section className="mb-32 mx-20 text-center">
                 <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
 
                     <div className="mb-12 md:mb-0">

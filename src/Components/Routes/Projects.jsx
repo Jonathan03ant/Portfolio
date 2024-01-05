@@ -24,8 +24,8 @@ export default function Projects() {
                     </a> 
                 </h3>
                 <p className="text-white text-justify"> 
-                    A custom memory allocator implementation in C programming language. It includes functions for 
-                    memory allocation (jalloc), block initialization (jcalloc), deallocation (jfree), and reallocation (jrealloc)
+                    A custom Memory Allocator implementation in C programming language that includes functions for 
+                    memory allocation (jalloc), block initialization (jcalloc), deallocation (jfree), and reallocation (jrealloc).
                 </p>
                 <a href="https://github.com/Jonathan03ant/memAlocator" target="_blank" rel="noopener noreferrer">
                     <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
@@ -41,8 +41,8 @@ export default function Projects() {
                     </a> 
                 </h3>
                 <p className="text-white text-justify"> 
-                    A huge library for college level linear algebra operations. It includes functions for vector and matrix operations.
-                    It also includes functions that are not implemented yet for solving systems of linear equations, finding eigenvalues and eigenvectors, and orthogonality.
+                    A comprehensive library for college-level Linear Algebra operations that includes functions for vector and matrix operations.
+                    This library also includes functions that are not implemented yet for solving Systems of Linear Equations, finding Eigenvalues and Eigenvectors, and orthogonality.
                     It follows facade design pattern to make the library easy to use, customize and extend.
                 </p>
                 <a href="https://github.com/Jonathan03ant/Linear-Alg-Lib" target="_blank" rel="noopener noreferrer">
@@ -65,12 +65,12 @@ export default function Projects() {
                     </a> 
                 </h3>
                 <p className="text-white text-justify"> 
-                    A web application that allows users to track their job applications. It is built with React.js and uses Firebase as the backend. Users can easily add, edit, and remove job applications.
-                    leveraging the power of Firebase to authenticate and provide real-time updates to users. 
+                    A web application that allows users to track their job applications. It is built with React.js and uses Firebase as the backend. Users can easily add, edit, and remove job
+                     applications, benefiting from Firebase's authentication and real-time updates.
                 </p>
                 <p className="text-white text-justify mt-3">
-                    Features include editing application status, adding notes, adding interview dates and adding 
-                    a job to a watchlist section to easily keep track of a carrier that the user is interested in.
+                    Features include signing in or signing up, the ability to edit application status, 
+                    adding notes and interview dates, and adding jobs to a watchlist section for easy tracking of desired career opportunities.
                 </p>
                 <p className="text-white text-justify mt-3"> 
                     19 Active Users | 50+ Job Applications Tracked.
@@ -116,7 +116,8 @@ export default function Projects() {
                     </div> 
                 </h3>
                 <p className="text-white text-justify"> 
-                    A web application that allows users to create a resume. It is built with React.js and uses JsPdf library to generate a pdf file of the resume. users can easily edit, add and remove sections of the resume.
+                    A web application that allows users to create a resume. It is built with React.js and uses JsPdf library to generate a pdf file of the resume. 
+                    Users can easily edit, add and remove sections of the resume.
                 </p>
                 <a href="https://github.com/Jonathan03ant/CVBuilder" target="_blank" rel="noopener noreferrer">
                     <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
@@ -138,7 +139,8 @@ export default function Projects() {
                     </a> 
                 </h3>
                 <p className="text-white text-justify"> 
-                    A simple web application that allows users to check the weather in any city. It is built with React.js and uses OpenWeatherMap API to fetch the weather data. Users can easily check the weather in any city in the world.
+                    A simple web application that allows users to check the weather in any city. It is built with React.js and uses OpenWeatherMap's API to fetch live weather data. 
+                    Users can easily check the weather in any city in the world.
                 </p>
                 <a href="https://github.com/Jonathan03ant/Simple-Weather-App" target="_blank" rel="noopener noreferrer">
                     <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
@@ -160,7 +162,7 @@ export default function Projects() {
                 <p className="text-white text-justify mt-3"> 
                     Podify utilizes ASCII art to represent audio-only and audio-video experiences,replacing traditional media formats.
                     The project incorporates various software engineering concepts like operator overloading, templates, multiple inheritance, 
-                    factories, and the strategy pattern to ensure a seamless user experience.
+                    factories, and the strategy pattern.
                 </p>
                 <a href="https://github.com/Jonathan03ant/Podify" target="_blank" rel="noopener noreferrer">
                     <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
@@ -176,11 +178,11 @@ export default function Projects() {
                     </a> 
                 </h3>
                 <p className="text-white text-justify"> 
-                    A Pokemon database that allows users to search and explore Pokemon and their attributes. It features a search function that enables easy Pokemon selection based on specific criteria.
+                    A Pokemon database that allows users to search and explore Pokemon and their attributes. It features a search function enabling easy Pokemon selection based on specific criteria.
                 </p>
                 <p className="text-white text-justify mt-3">
                     It employs advanced features like multithreading and mutex locks to handle multiple queries simultaneously, ensuring a smooth and responsive user interface. 
-                    Additionally, it provides the functionality to save the results of all completed queries to a file, enhancing the usability of the application.
+                    Additionally, it provides the functionality to save the results of all completed queries to an external file, enhancing the usability of the application.
                 </p>
                 <a href="https://github.com/Jonathan03ant/Pokemon-Query-Explorer" target="_blank" rel="noopener noreferrer">
                     <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
