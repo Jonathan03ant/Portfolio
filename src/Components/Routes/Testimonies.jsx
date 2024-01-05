@@ -1,6 +1,5 @@
 
 import React from 'react';
-import jeremy from '../../../public/img/Jeremy.png'
 
 export default function Testimonies() {
     return (
