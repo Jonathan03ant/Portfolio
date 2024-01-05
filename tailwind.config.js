@@ -20,6 +20,7 @@ export default {
             'rock-salt': ['Rock Salt', 'cursive'],
             'coding': ['Nanum Gothic Coding', 'monospace'],
             'zillo': ['Zilla Slab', 'serif'],
+            'rubik': ['EB Garamond', 'serif'],
         },
     },
   },
