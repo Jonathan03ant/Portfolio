@@ -23,8 +23,17 @@ export default function Testimonies() {
 
                     <div className="mb-12 md:mb-0">
                         <p className=" text-yellow-50 mb-5  font-rubik text-md text-justify-center"> 
-                            "Place holder for Prof Alina, Place holder for Prof Alina, Place holder for Prof Alina, Place holder for Prof Alina,
-                            Place holder for Prof Alina, Place holder for Prof Alina, Place holder for Prof Alina, Place holder for Prof Alina," 
+                            "I had the pleasure of having Jonathan as one of my students in the course "Fundamentals of Web Applications." 
+                            Throughout the semester, Jonathan consistently demonstrated high standards in his coursework and delivered an outstanding project at the end of the term.
+" 
+                        </p>
+                        <p className=" text-yellow-50 mb-5  font-rubik text-md text-justify-center"> 
+                            " His project stood out for its exceptional professionalism, highlighting not only technical proficiency but also a keen eye for design. 
+                            I particularly like Jonathan's unique style, which added a touch of creativity and excellence to his work."
+                        </p>
+                        <p className=" text-yellow-50 mb-5  font-rubik text-md text-justify-center"> 
+                            It was rewarding to witness Jonathan's skills and passion for web development, 
+                            and I am confident that he will continue to excel in his future endeavours.
                         </p>
                         <h5 class="mb-2 text-2xl font-bold font-rubik text-white">ALINA SHAIKHET, Ph.D.</h5>
                         <h6 class="text-lg font-rubik text-blue-200">
