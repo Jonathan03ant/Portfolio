@@ -10,7 +10,7 @@ export default function Testimonies() {
                     <div className="mb-12 md:mb-0">
                         <p className=" text-yellow-50 mb-5  font-rubik text-md text-justify-center"> 
                             "Place holder for Prof Darryl, Place holder for Prof Darryl, Place holder for Prof Darryl, Place holder for Prof Darryl,
-                            Place holder for Prof Darryl, Place holder for Prof Darryl, Place holder for Prof Darryl, Place holder for Prof Darryl,"
+                            Place holder for Prof Darryl, Place holder for Prof Darryl, Place holder for Prof Darryl,"
                         </p>
                         <h5 class="mb-2 text-2xl font-bold font-rubik text-white">Darryl Hill </h5>
                         <h6 class="text-lg font-rubik text-blue-200">
