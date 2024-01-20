@@ -15,7 +15,7 @@ export default function NavBar() {
             </div>
 
             <div className="navbar px-2 mx-7 text-lg text-white space-x-2">
-                <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank" rel="noopener noreferrer" className=''>
+                <a href="https://www.linkedin.com/in/jonathan03ant/" target="_blank" rel="noopener noreferrer" className=''>
                     <SiLinkedin />
                 </a>
                 <a href="https://github.com/Jonathan03ant" target="_blank" rel="noopener noreferrer">
