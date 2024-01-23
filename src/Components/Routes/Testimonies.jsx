@@ -12,7 +12,7 @@ export default function Testimonies() {
                             "Place holder for Prof Darryl, Place holder for Prof Darryl, Place holder for Prof Darryl, Place holder for Prof Darryl,
                             Place holder for Prof Darryl, Place holder for Prof Darryl, Place holder for Prof Darryl,"
                         </p>
-                        <h5 class="mb-2 text-2xl font-bold font-rubik text-white">Darryl Hill </h5>
+                        <h5 class="mb-2 text-2xl font-bold font-rubik text-white">Darryl, Hill </h5>
                         <h6 class="text-lg font-rubik text-blue-200">
                             Professor
                         </h6>
