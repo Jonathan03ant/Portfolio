@@ -17,4 +17,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JOBAPPLICATIONTRACKER_24B35 }}'
           channelId: live
-          projectId: jobapplicationtracker-24b35
+          projectId: portfolio-135cc
