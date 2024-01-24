@@ -54,7 +54,7 @@ export default function Projects() {
 
             <div className='font-coding mr-1 ms-2 p-4 pl-6 hover:bg-gray-400 hover:bg-opacity-5 max-w-full'>
                 <h3 className=" text-white font-coding font-bold text-2xl hover:text-slate-400 hover:underline my-3">
-                    <a href='jobapplicationtracker-24b35.web.app' target="_blank" rel="noopener noreferrer"> 
+                    <a href='http://jobapplicationtracker-24b35.web.app/' target="_blank" rel="noopener noreferrer"> 
                         Job Application Tracker (Jetzt) <IoArrowRedoOutline className="inline-block text-sm text-blue-700"/> <img src={live} alt="Live" className=" animate-blink inline-block w-12 h-15"/>
                         <div className='space-x-2'>
                             <img src={react} alt="React" className="inline-block w-6 h-6"/> 
