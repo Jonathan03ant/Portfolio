@@ -5,7 +5,7 @@ import {Typewriter} from 'react-simple-typewriter';
 export default function Home() {
 
     const words = [
-        'Third Year student at Carleton\n',
+        'A student at Carleton\n',
         'Looking for my first COOP\n',
         'I Love coding in C and C++\n',
         'And I am learning React\n',
