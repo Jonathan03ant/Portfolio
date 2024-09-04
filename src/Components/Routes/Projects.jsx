@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoArrowRedoOutline } from "react-icons/io5";
+import py from '../../../public/img/py.png';
 import c from '../../../public/img/c.png';
 import cpp from '../../../public/img/cpp.png';
 import react from '../../../public/img/react.png';
@@ -10,6 +11,7 @@ import pug from '../../../public/img/pug.png';
 import mongo from '../../../public/img/mongo.png';
 import node from '../../../public/img/node.png';
 import live from '../../../public/img/live.png';
+import prg from '../../../public/img/prg.png';
 
 import { useRef } from 'react';
 
@@ -36,8 +38,34 @@ export default function Projects() {
 
             <div className='font-coding mr-1 ms-2 p-4 pl-6 hover:bg-gray-400 hover:bg-opacity-5 max-w-full'>
                 <h3 className=" text-white font-coding font-bold text-2xl hover:text-slate-400 hover:underline my-3">
+                    <a href='https://github.com/Jonathan03ant/memAlocator' target="_blank" rel="noopener noreferrer"> 
+                        I2C BMP280[Temp. Sensor] Driver, LKM 
+                    </a>
+                    <div className='space-x-2'>
+                            <img src={c} alt="C" className="inline-block w-6 h-6"/>
+                            <img src={py} alt="py" className="inline-block w-6 h-6"/>
+                            <img src={prg} alt="Live" className=" animate-blink inline-block w-7 h-7"/>
+                        </div> 
+                </h3>
+                <p className="text-white text-justify"> 
+                    A custom Memory Allocator implementation in C programming language that includes functions for 
+                    memory allocation (jalloc), block initialization (jcalloc), deallocation (jfree), and reallocation (jrealloc).
+                </p>
+                <a href="https://github.com/Jonathan03ant/memAlocator" target="_blank" rel="noopener noreferrer">
+                    <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
+                        Source Code <IoArrowRedoOutline className="inline-block text-sm"/> 
+                    </button>
+                </a>
+            </div>
+
+            <div className='font-coding mr-1 ms-2 p-4 pl-6 hover:bg-gray-400 hover:bg-opacity-5 max-w-full'>
+                <h3 className=" text-white font-coding font-bold text-2xl hover:text-slate-400 hover:underline my-3">
                     <a href='https://github.com/Jonathan03ant/Linear-Alg-Lib' target="_blank" rel="noopener noreferrer"> 
-                        Linear Algebra Library (In Progress) <img src={c} alt="C" className="inline-block w-6 h-6"/>
+                        Linear Algebra Library (In Progress) 
+                        <div className='space-x-2'>
+                            <img src={c} alt="C" className="inline-block w-6 h-6"/>
+                            <img src={py} alt="py" className="inline-block w-6 h-6"/>
+                        </div>
                     </a> 
                 </h3>
                 <p className="text-white text-justify"> 
@@ -46,6 +74,36 @@ export default function Projects() {
                     It follows facade design pattern to make the library easy to use, customize and extend.
                 </p>
                 <a href="https://github.com/Jonathan03ant/Linear-Alg-Lib" target="_blank" rel="noopener noreferrer">
+                    <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
+                        Source Code <IoArrowRedoOutline className="inline-block text-sm"/>
+                    </button>
+                </a>
+            </div>
+
+            <div className='font-coding mr-1 ms-2 p-4 pl-6 hover:bg-gray-400 hover:bg-opacity-5 max-w-full'>
+                <h3 className=" text-white font-coding font-bold text-2xl hover:text-slate-400 hover:underline my-3">
+                    <a href='http://jobapplicationtracker-24b35.web.app/' target="_blank" rel="noopener noreferrer"> 
+                        Job Application Tracker (Jetzt) <IoArrowRedoOutline className="inline-block text-sm text-blue-700"/> <img src={live} alt="Live" className=" animate-blink inline-block w-12 h-15"/>
+                        <div className='space-x-2'>
+                            <img src={react} alt="React" className="inline-block w-6 h-6"/> 
+                            <img src={firebase} alt="React" className="inline-block w-6 h-6"/> 
+                            <img src={tailwind} alt="React" className="inline-block w-6 h-6"/>
+                            <img src={js} alt="React" className="inline-block w-6 h-6"/>
+                        </div>  
+                    </a> 
+                </h3>
+                <p className="text-white text-justify"> 
+                    A web application that allows users to track their job applications. It is built with React.js and uses Firebase as the backend. Users can easily add, edit, and remove job
+                     applications, benefiting from Firebase's authentication and real-time updates.
+                </p>
+                <p className="text-white text-justify mt-3">
+                    Features include signing in or signing up, the ability to edit application status, 
+                    adding notes and interview dates, and adding jobs to a watchlist section for easy tracking of desired career opportunities.
+                </p>
+                <p className="text-white text-justify mt-3"> 
+                    160 Active Users | 50+ Job Applications Tracked.
+                </p>
+                <a href="https://github.com/Jonathan03ant/JobApplicationTracker" target="_blank" rel="noopener noreferrer">
                     <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
                         Source Code <IoArrowRedoOutline className="inline-block text-sm"/>
                     </button>
