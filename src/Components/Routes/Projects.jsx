@@ -19,17 +19,22 @@ export default function Projects() {
     const animationRef = useRef(null);
     return (
         <div className="projects flex flex-col items-center justify-start mt-10 mb-20 space-y-5 max-w-full">
+
             <div className='font-coding mr-1 ms-2 p-4 pl-6 hover:bg-gray-400 hover:bg-opacity-5 max-w-full'>
                 <h3 className=" text-white font-coding font-bold text-2xl hover:text-slate-400 hover:underline my-3">
-                    <a href='https://github.com/Jonathan03ant/memAlocator' target="_blank" rel="noopener noreferrer"> 
+                    <a href='https://github.com/Jonathan03ant/memAllocator' target="_blank" rel="noopener noreferrer"> 
                         Custom Memory Allocator <img src={c} alt="C" className="inline-block w-6 h-6"/>
                     </a> 
                 </h3>
                 <p className="text-white text-justify"> 
-                    A custom Memory Allocator implementation in C programming language that includes functions for 
-                    memory allocation (jalloc), block initialization (jcalloc), deallocation (jfree), and reallocation (jrealloc).
+                    A custom Memory Allocator Module written with C to optimize memory usage and performance without using the standard C library.
+                    
                 </p>
-                <a href="https://github.com/Jonathan03ant/memAlocator" target="_blank" rel="noopener noreferrer">
+                <p className="text-white text-justify mt-3">
+                Supports dynamic memory allocation and deallocation, reducing fragmentation and improving memory management using Linked List to store memory blocks. 
+                </p>
+
+                <a href='https://github.com/Jonathan03ant/memAllocator' target="_blank" rel="noopener noreferrer">
                     <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
                         Source Code <IoArrowRedoOutline className="inline-block text-sm"/> 
                     </button>
@@ -38,7 +43,7 @@ export default function Projects() {
 
             <div className='font-coding mr-1 ms-2 p-4 pl-6 hover:bg-gray-400 hover:bg-opacity-5 max-w-full'>
                 <h3 className=" text-white font-coding font-bold text-2xl hover:text-slate-400 hover:underline my-3">
-                    <a href='https://github.com/Jonathan03ant/memAlocator' target="_blank" rel="noopener noreferrer"> 
+                    <a href='https://github.com/Jonathan03ant/BMP280-Device-Driver' target="_blank" rel="noopener noreferrer"> 
                         I2C BMP280[Temp. Sensor] Driver, LKM 
                     </a>
                     <div className='space-x-2'>
@@ -48,15 +53,39 @@ export default function Projects() {
                         </div> 
                 </h3>
                 <p className="text-white text-justify"> 
-                    A custom Memory Allocator implementation in C programming language that includes functions for 
-                    memory allocation (jalloc), block initialization (jcalloc), deallocation (jfree), and reallocation (jrealloc).
+                    A Linux kernel module to interface with the BMP280 temperature and pressure sensor via the I2C bus
                 </p>
-                <a href="https://github.com/Jonathan03ant/memAlocator" target="_blank" rel="noopener noreferrer">
+                <p className="text-white text-justify mt-3">
+                	Implemented register access mechanisms to configure the sensor and retrieve calibration data, optimizing accurate temperature value and real-time communication between the driver and hardware.
+                </p>
+                <a href='https://github.com/Jonathan03ant/BMP280-Device-Driver' target="_blank" rel="noopener noreferrer">
                     <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
                         Source Code <IoArrowRedoOutline className="inline-block text-sm"/> 
                     </button>
                 </a>
             </div>
+
+            <div className='font-coding mr-1 ms-2 p-4 pl-6 hover:bg-gray-400 hover:bg-opacity-5 max-w-full'>
+                <h3 className=" text-white font-coding font-bold text-2xl hover:text-slate-400 hover:underline my-3">
+                    <a href='https://github.com/Jonathan03ant/devfile_driver' target="_blank" rel="noopener noreferrer"> 
+                        Simple Kernel Module, Skeleton
+                    </a>
+                    <div className='space-x-2'>
+                            <img src={c} alt="C" className="inline-block w-6 h-6"/>
+                            <img src={py} alt="py" className="inline-block w-6 h-6"/>
+                            <img src={prg} alt="Live" className=" animate-blink inline-block w-7 h-7"/>
+                        </div> 
+                </h3>
+                <p className="text-white text-justify"> 
+                    A simple Linux kernel module that prints a message when loaded and unloaded from the kernel.
+                </p>
+                <a href='https://github.com/Jonathan03ant/devfile_driver' target="_blank" rel="noopener noreferrer">
+                    <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
+                        Source Code <IoArrowRedoOutline className="inline-block text-sm"/> 
+                    </button>
+                </a>
+            </div>
+
 
             <div className='font-coding mr-1 ms-2 p-4 pl-6 hover:bg-gray-400 hover:bg-opacity-5 max-w-full'>
                 <h3 className=" text-white font-coding font-bold text-2xl hover:text-slate-400 hover:underline my-3">
@@ -69,9 +98,10 @@ export default function Projects() {
                     </a> 
                 </h3>
                 <p className="text-white text-justify"> 
-                    A comprehensive library for college-level Linear Algebra operations that includes functions for vector and matrix operations.
-                    This library also includes functions that are not implemented yet for solving Systems of Linear Equations, finding Eigenvalues and Eigenvectors, and orthogonality.
-                    It follows facade design pattern to make the library easy to use, customize and extend.
+                    A comprehensive, modular library for college-level Linear Algebra operations that includes functions for vector and matrix operations.
+                </p>
+                <p className="text-white text-justify mt-3">
+                	Integrated Python testing using ctypes to establish a seamless interface between C and Python.
                 </p>
                 <a href="https://github.com/Jonathan03ant/Linear-Alg-Lib" target="_blank" rel="noopener noreferrer">
                     <button className="bg-transparent text-white font-coding hover:bg-gray-400 py-1 px-1 my-3 border border-l-yellow-50 hover:border-transparent rounded ">
